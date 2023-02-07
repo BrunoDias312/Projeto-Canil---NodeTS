@@ -1,0 +1,30 @@
+{
+  "name": "projeto-canil---nodets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon -e ts,json,mustache  src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoDias312/Projeto-Canil---NodeTS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoDias312/Projeto-Canil---NodeTS/issues"
+  },
+  "homepage": "https://github.com/BrunoDias312/Projeto-Canil---NodeTS#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mustache-express": "^1.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/mustache-express": "^1.2.2",
+    "@types/node": "^18.13.0"
+  }
+}
